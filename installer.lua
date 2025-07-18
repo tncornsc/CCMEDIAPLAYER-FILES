@@ -1,4 +1,4 @@
-local github = "https://raw.githubusercontent.com/tncornsc/CCMEDIAPLAYER-FILES/refs/head/main"
+local github = "https://raw.githubusercontent.com/tncornsc/CCMEDIAPLAYER-FILES/refs/heads/main"
 shell.run("cd ../")
 shell.run("mkdir /computer/")
 shell.run("cd /computer/")
