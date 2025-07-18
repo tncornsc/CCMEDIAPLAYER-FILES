@@ -2,7 +2,7 @@
 local audio = require("audio")
  
 local function getBaseName(path)
-    return path:match("([^/\\]+%.dfpwm$")
+    return path:match("([^/\\]+)%.dfpwm$")
 end
  
 local function getSongsInFolder(folder)
